@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ROCK_PAPER_SCISSORS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="heading">Rock Paper Scissors</h1>
+		</div>	
+	</div>
+	<div class="container" id="welcome">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-12">
+					<h3>Welcome To A Classic Game Of Rock, Paper, Scissors! If You Lose 5 Times Then GAME OVER If You Win 6 Times Then Your A RPS PRO! Good Luck!</h3>
+				</div>
+				<div class="col-12" id="buttons">
+					<button type="button" class="btn btn-secondary btn-lg" id="welcomeStart">Get Started!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="winlose">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-4">
+					<h3>Wins:</h3><h3 id="winCount"></h3>
+				</div>
+				<div class="col-4">
+					<h3>Loses:</h3><h3 id="lossCount"></h3>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</div>
+<div class="container" id="content">
+	<div id="All">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-12">
+					<h3 class="Choose1">Choose Who You will Face!</h3>
+				</div>
+			</div>
+		<div id="versus">
+			<div class="row" id="persOrcomp">
+				<div class="col-3"></div>
+				<div class="col-3" id="person">
+					<h3 id="pvp">Vs Person</h3>
+				</div>
+				<div class="col-3" id="computer">
+					<h3 class="pvc">Vs Computer</h3>
+				</div>
+				<div class="col-3"></div>
+			</div>
+		</div>
+		<div id="Choices">
+				<div class="row">
+					<div class="col-12">
+						<h3 class="Choose">Choose Your Weapon!</h3>
+					</div>
+				</div>
+			<div id="RPSchoice">
+				<div class="row" id="ChoiceRow">
+					<div class="col-3">	
+					</div>
+					<div class="col-2" id="scissors">
+						<img src="assets/images/scissors.jpg">
+					</div>
+					<div class="col-2" id="rock">
+						<img src="assets/images/rock.jpg">
+					</div>
+					<div class="col-2" id="paper">
+						<img src="assets/images/paper.jpg">
+					</div>
+					<div class="col-3">
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-12" id="buttons">
+					<button type="button" class="btn btn-secondary btn-lg" id="start">Battle!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+ <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
