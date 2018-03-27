@@ -1,0 +1,61 @@
+body{
+	background-image: url(../images/rpc.jpg);
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bangers', cursive;
+}
+.jumbotron{
+	text-align: center;
+	/*margin-top: 10px;*/
+	background-color: transparent!important;
+	color: black;
+	margin-bottom: 0px!important;
+	padding-bottom: 0px!important;
+	padding-top: 30px;
+}
+#welcome{
+	margin-top: 150px;
+}
+#welcomeStart{
+	background-color: black;
+}
+#restart{
+	background-color: black;
+}
+h1{
+	font-size: 5rem;
+}
+.Choose1{
+	color: #af0031;
+}
+.wrapper{
+	text-align: center;
+}
+#start{
+	margin-top: 10px;
+	background-color: black;
+}
+.col-2{
+	padding: 3px;
+}
+.col-2:hover{
+	background-color: grey;
+}
+#pvp:hover{
+	background-color: grey;
+}
+.pvc:hover{
+	background-color: grey;
+}
+.Choose{
+	margin-top: 10px;
+	color: #103977;
+}
+/*.pvp{
+	text-align: right;
+}
+.pvc{
+	text-align: left;
+}*/
